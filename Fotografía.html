@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fotografía</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onLoad="MM_preloadImages('Secciones de Página/Fotografía/FotoArq2.png','Secciones de Página/Fotografía/Retra2.png','Secciones de Página/Fotografía/Retratos2.png','Secciones de Página/Fotografía/FotoHumo2.png','Secciones de Página/Fotografía/Fotospubli2.png','Secciones de Página/Fotografía/Curso2.png')">
+	<table width="1200" align="center">
+  <tbody>
+    <tr>
+      <td><img src="Banners/1.png" width="1200" height="400" alt=""/></td>
+    </tr>
+  </tbody>
+</table>
+<table width="1200" align="center">
+  <tbody>
+    <tr>
+      <td><a href="https://drive.google.com/file/d/1t0EQpL5hbDpl6BC2j_PmLleziiuqVtF9/view?usp=sharing"><img src="Secciones de Página/Fotografía/FotoArq1.png" alt="" width="1200" height="500" id="Arq_btn" onMouseOver="MM_swapImage('Arq_btn','','Secciones de Página/Fotografía/FotoArq2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://drive.google.com/file/d/1BEV9uO7gxnIUa7H7ZjCxCUDp8hlVLSKN/view?usp=sharing"><img src="Secciones de Página/Fotografía/Retra1.png" alt="" width="1200" height="500" id="rt_btn" onMouseOver="MM_swapImage('rt_btn','','Secciones de Página/Fotografía/Retra2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://drive.google.com/file/d/142Tyt17L422LaitonwGiaCEjeGJCz2qJ/view?usp=sharing"><img src="Secciones de Página/Fotografía/Retratos1.png" alt="" width="1200" height="500" id="retra_btn" onMouseOver="MM_swapImage('retra_btn','','Secciones de Página/Fotografía/Retratos2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://drive.google.com/file/d/13pW3Fzsa1cnC3Jsp3wKM0fzbBbDwkCaU/view?usp=sharing"><img src="Secciones de Página/Fotografía/FotoHumo1.png" alt="" width="1200" height="500" id="humo_btn" onMouseOver="MM_swapImage('humo_btn','','Secciones de Página/Fotografía/FotoHumo2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://drive.google.com/file/d/14gdOhtGX0UrzmumahlCua1YvcnTTVCoL/view?usp=sharing"><img src="Secciones de Página/Fotografía/Fotospubli1.png" alt="" width="1200" height="500" id="ftp_btn" onMouseOver="MM_swapImage('ftp_btn','','Secciones de Página/Fotografía/Fotospubli2.png',1)" onMouseOut="MM_swapImgRestore()"/></a></td>
+    </tr>
+    <tr>
+      <td><img src="Secciones de Página/Fotografía/Curso1.png" alt="" width="1200" height="500" id="curso_btn" onMouseOver="MM_swapImage('curso_btn','','Secciones de Página/Fotografía/Curso2.png',1)" onMouseOut="MM_swapImgRestore()"/></td>
+    </tr>
+  </tbody>
+	</table>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
